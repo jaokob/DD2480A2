@@ -9,17 +9,17 @@
   "scripts": {
     "build": "node lib/index.js",
     "watch": "nodemon lib/index.js",
-    "test": "jest"
+    "test": "jest --detectOpenHandles"
   },
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "jest": "^24.0.0",
     "morgan": "^1.9.1",
     "ngrok": "^3.1.0",
     "nodegit": "^0.24.0",
     "nodemon": "^1.18.9"
   },
-  "devDependencies": {
-  }
+  "devDependencies": {}
 }
