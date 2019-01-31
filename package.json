@@ -2,19 +2,44 @@
   "name": "DD2480A2",
   "version": "1.0.0",
   "description": "CI server for DD2480",
-  "main": "index.js",
+  "main": "lib/index.js",
   "repository": "git@github.com:jaokob/DD2480A2.git",
   "author": "Jakob Holm <jakob.holm@vimla.se>",
   "license": "MIT",
+  "scripts": {
+    "build": "node lib/index.js",
+    "watch": "nodemon lib/index.js",
+    "test": "jest --detectOpenHandles",
+    "lint": "standard --fix"
+  },
+  "standard": {
+    "env": [ "jest" ],
+    "globals": [
+      "describe",
+      "xdescribe",
+      "it",
+      "xit",
+      "before",
+      "beforeEach",
+      "after",
+      "afterEach",
+      "context"
+    ],
+    "ignore": [
+      "/test/cypress/",
+      "/lib/assets/",
+      "gulpfile.js"
+    ]
+  },
   "dependencies": {
     "body-parser": "^1.18.3",
+    "cors": "^2.8.5",
     "express": "^4.16.4",
-    "fs": "^0.0.1-security",
+    "jest": "^24.0.0",
+    "morgan": "^1.9.1",
+    "ngrok": "^3.1.0",
+    "nodegit": "^0.24.0",
     "nodemon": "^1.18.9"
   },
-  "devDependencies": {
-    "ts-node": "^8.0.2",
-    "tslint": "^5.12.1",
-    "typescript": "^3.2.4"
-  }
+  "devDependencies": {}
 }
