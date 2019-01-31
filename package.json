@@ -13,7 +13,9 @@
     "lint": "standard --fix"
   },
   "standard": {
-    "env": [ "jest" ],
+    "env": [
+      "jest"
+    ],
     "globals": [
       "describe",
       "xdescribe",
@@ -34,6 +36,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "cors": "^2.8.5",
+    "ejs": "^2.6.1",
     "express": "^4.16.4",
     "jest": "^24.0.0",
     "morgan": "^1.9.1",
