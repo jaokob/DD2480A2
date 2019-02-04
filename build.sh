@@ -1,4 +1,7 @@
 #!/bin/bash
 
 javac $1/src/*.java
-rm $1/src/*.class
+if [ -f $1/src/*.class ]; then
+    rm $1/src/*.class
+fi
+
