@@ -13,7 +13,9 @@
     "lint": "standard --fix"
   },
   "standard": {
-    "env": [ "jest" ],
+    "env": [
+      "jest"
+    ],
     "globals": [
       "describe",
       "xdescribe",
@@ -40,7 +42,8 @@
     "ngrok": "^3.1.0",
     "nodegit": "^0.24.0",
     "nodemon": "^1.18.9",
-    "shelljs": "^0.8.3"
+    "shelljs": "^0.8.3",
+    "standard": "^12.0.1"
   },
   "devDependencies": {}
 }
