@@ -78,5 +78,7 @@ We use [`standard`](http://standardjs.com), with some modifications:
 ### Statement of contribution
 
 Jakob: Statuses, build history, integration between clone and compile, API documentation & README
+
 Jenny: Compiling code and testing of this functionality
+
 Philip: Cloning from git, logging build information.
