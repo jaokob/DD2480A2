@@ -2,6 +2,10 @@
 
 ## TODO
 
+## Build logs
+
+The logs are available at http://localhost:3000/history
+
 ## BUILD
 
 ### Dependencies 
