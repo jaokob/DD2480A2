@@ -11,7 +11,7 @@ To use this CI server, clone the repo and start the server (for information on h
 
 This CI server assumes the following file structure:
 * The code needs to be under folder `src`
-* The test class needs to be under the folder `tests`. 
+* The test class needs to be under the folder `test`. 
 
 Furthermore, [a github personal token](https://github.com/settings/tokens) is needed. The token needs to be exported to environment variable `GITHUB_TOKEN`. The token only needs access to statuses, nothing more. 
 
@@ -70,6 +70,7 @@ We use [`standard`](http://standardjs.com), with some modifications:
 
 | Status  Code |                                 Description                       |
 |--------------|-------------------------------------------------------------------|
+| 200          |                      Ok                                           |
 | 201          |                       Resource created                            |
 | 404          |            Not Found - The requested resource could not be found. |
 | 500          | Internal Server error                                             |           
@@ -77,8 +78,12 @@ We use [`standard`](http://standardjs.com), with some modifications:
 
 ### Statement of contribution
 
-Jakob: Statuses, build history, integration between clone and compile, API documentation & README
+Jakob: Statuses, build history, integration between clone and compile, API documentation & README, CI server endpoints
 
 Jenny: Compiling code and testing of this functionality
 
-Philip: Cloning from git, logging build information.
+Philip: Cloning from git, logging build information, API documentation & README
+
+Shiva: Testing code with JUnit and testing of this functionality 
+
+Fredrik: Testing code with JUnit and testing of this functionality 
