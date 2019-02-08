@@ -80,10 +80,10 @@ We use [`standard`](http://standardjs.com), with some modifications:
 
 Jakob: Statuses, build history, integration between clone and compile, API documentation & README, CI server endpoints
 
-Jenny: Compiling code and testing of this functionality
+Jenny: Handling the SUT compilation phase. An attempt is made at compiling the SUT and the result (success/fail) of this attempt is returned together with build logs. Also responsible for testing the CI implementation of this compilation phase.
 
 Philip: Cloning from git, logging build information, API documentation & README
 
-Shiva: Testing code with JUnit and testing of this functionality 
+Shiva:  Handling the SUT testing phase. Tests defined in the SUT are run and evaluated, the result of the SUT tests are returned. Also responsible for testing the CI implementation of this testing phase.
 
-Fredrik: Testing code with JUnit and testing of this functionality 
+Fredrik: Handling the SUT testing phase. Tests defined in the SUT are run and evaluated, the result of the SUT tests are returned. Also responsible for testing the CI implementation of this testing phase.
