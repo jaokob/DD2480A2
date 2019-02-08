@@ -2,12 +2,12 @@
 
 ## Java Continuous Integration server
 
-This is a bare bones continuous cntegration (CI) server written in nodeJS.
+This is a bare bones continuous integration (CI) server written in nodeJS.
 Currently it only supports Java and testing with JUnit 5.
 
 ## Usage
 
-To use this CI server, clone the repo and start the server (for information on how to build and project and the relevant dependencies needed, see below). 
+To use this CI server, clone the repo and start the server (for information on how to build project and the relevant dependencies needed, see below). 
 
 This CI server assumes the following file structure:
 * The code needs to be under folder `src`
@@ -32,14 +32,14 @@ The logs are available at `http://ngrok_address/history`
 * ngrok (`npm install ngrok -g`)
 
 ### How to start
-To install the npm dependencies needed, type `yarn install` in terminal in project folder. 
+To install the npm dependencies needed, type `yarn install` in the terminal in the project folder. 
 
 To run, start ngrok locally in a seperate terminal window. Use `ngrok http 3000` to start it.
-Then in project folder type `yarn run watch` to start the server, `yarn run build` to build project 
+Then in project folder type `yarn watch` to start the server, `yarn build` to build project 
 
 ### Tests
 We will use jest to implement unit testing.
-Type `yarn run test` to execute tests.
+Type `yarn test` to execute tests.
 
 ### Linting
 To lint your code (fix syntax), type `yarn lint`. 
