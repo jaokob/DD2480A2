@@ -87,3 +87,7 @@ Philip: Cloning from git, logging build information, API documentation & README
 Shiva:  Handling the SUT testing phase. Tests defined in the SUT are run and evaluated, the result of the SUT tests are returned. Also responsible for testing the CI implementation of this testing phase.
 
 Fredrik: Handling the SUT testing phase. Tests defined in the SUT are run and evaluated, the result of the SUT tests are returned. Also responsible for testing the CI implementation of this testing phase.
+
+### CI test repo
+
+https://github.com/jaokob/testarrr
