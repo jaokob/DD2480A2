@@ -1,5 +1,7 @@
 # DD2480A2
 
+**NOTE:** We use "dev" branch, not "assessment".
+
 ## Java Continuous Integration server
 
 This is a bare bones continuous integration (CI) server written in nodeJS.
