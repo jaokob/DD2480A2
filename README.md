@@ -59,12 +59,12 @@ We use [`standard`](http://standardjs.com), with some modifications:
 # Endpoint specification
 ### Available endpoints
 
-| Verb | Route  | Description         |
-|------|-------------|---------------------|
-| get  | `/health`    | Health check route. |
-| post | `/events` | Github webhook endpoint.|
-| get  | `/history` | CI Build history is displayed here. |
-| get  | `/log` | Shows the CI log of commit SHA that gets supplied via parameter `sha`.  |
+| Verb | Route  | Description         | Parameter |
+|------|-------------|---------------------|--------|
+| get  | `/health`    | Health check route. | N/a |
+| post | `/events` | Github webhook endpoint.| N/a |
+| get  | `/history` | CI Build history is displayed here. | N/a |
+| get  | `/log` | Shows the CI log of commit SHA.  | `sha` |
 
 ### Response codes
 
